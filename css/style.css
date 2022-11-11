@@ -39,24 +39,28 @@ section {
   min-height: 70vh;
 }
 
-#conteudo-um {
+.conteudo {
   display: grid;
   grid-template-columns: auto auto;
   gap: 10px;
 }
 
-#conteudo-dois {
-  display: grid;
-  grid-template-columns: auto auto;
-  gap: 10px;
+.conteudo img {
+  width: 400px;
 }
 
-#conteudo-um img {
-  width: 200px;
+.conteudo div {
+  height: 225px;
+  overflow: hidden;
 }
 
-#conteudo-dois img {
-  width: 200px;
+#texto-um {
+  width: 400px;
+}
+
+#texto-dois {
+  width: 400px;
+  text-align: right;
 }
 
 footer {
