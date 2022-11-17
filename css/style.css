@@ -6,13 +6,13 @@
 
 header {
   width: 100%;
-  background: #5cd2f03b;
-  min-height: 15vh;
+  min-height: 14.9vh;
   display: grid;
   justify-items: center;
   align-items: center;
   place-items: end;
   font-size: 20px;
+  border-bottom: 0.1vh solid #000;
 }
 
 #menu {
@@ -21,22 +21,22 @@ header {
 
 #menu a {
   text-decoration: none;
-  color: rgb(179, 140, 180);
+  color: rgb(7, 7, 7);
   text-transform: uppercase;
   padding: 0 10px;
 }
 
 #menu a:hover {
-  color: rgb(44, 44, 68);
+  color: rgb(210, 210, 216);
 }
 
 section {
   display: grid;
   place-items: center;
-  background: #d75cf044;
   padding: 10px 0px;
   gap: 10px;
   min-height: 70vh;
+  border-bottom: 0.1vh solid #000;
 }
 
 .conteudo {
@@ -61,6 +61,10 @@ section {
 #texto-dois {
   width: 400px;
   text-align: right;
+}
+
+.conteudo p {
+  color: #666;
 }
 
 footer {
